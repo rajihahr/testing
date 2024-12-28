@@ -1,0 +1,36 @@
+.button {
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .primary {
+    background-color: #fff;
+    color: #ae0d05;
+    border: none;
+  }
+  
+  .primary:hover {
+    background-color: #f1d2c5;
+  }
+  
+  .secondary {
+    background-color: #f1d2c5;
+    color: #931510;
+    border: none;
+  }
+  
+  .secondary:hover {
+    background-color: #e6b8a3;
+  }
+  
+  @media (max-width: 991px) {
+    .button {
+      width: 100%;
+      padding: 12px 20px;
+    }
+  }

@@ -1,0 +1,65 @@
+.header {
+    background-color: #ae0d05;
+    padding: 0 48px;
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.16);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 0;
+  }
+  
+  .logoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .authButtons {
+    display: flex;
+    gap: 16px;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      padding: 0 20px;
+    }
+  
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  
+    .logoWrapper {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  
+    .navigation {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .authButtons {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }

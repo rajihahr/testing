@@ -1,0 +1,39 @@
+.signInOptions {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    color: #ae0d05;
+    font: 400 16px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-top: 16px;
+  }
+  
+  .googleSignIn {
+    background-color: #f1d2c5;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    padding: 15px 30px;
+    font: inherit;
+    color: inherit;
+  }
+  
+  .googleIcon {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .socialIcon {
+    width: 60px;
+    height: 55px;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .googleSignIn {
+      padding: 15px 20px;
+    }
+  }
